@@ -1,14 +1,10 @@
 # UserManagement
 
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
 ## About application
 User will be landed on the home page where user will have two options to choose
 1. click here to naviagte user management module
 2. click here to naviagte payroll management module( by default it is disabled)
+
 when user clicking on `click here to naviagte user management module` user will navigate to user details feature module which is declared as `lazy module`
 
 ## List of Modules
