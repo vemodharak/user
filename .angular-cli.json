@@ -8,9 +8,12 @@
       "root": "src",
       "outDir": "dist",
       "assets": [
-        "assets",
-        "favicon.ico"
-      ],
+          { "glob": "**/*", "input": "./assets/images", "output": "./images" },
+          { "glob": "**/*", "input": "./assets/css", "output": "./css" },
+          { "glob": "**/*", "input": "./assets/libs", "output": "./libs" },
+          { "glob": "**/*", "input": "./config", "output": "./config" },
+          { "glob": "favicon.ico", "input": "./", "output": "./" }
+        ],
       "index": "index.html",
       "main": "main.ts",
       "polyfills": "polyfills.ts",
