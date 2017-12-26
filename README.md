@@ -14,7 +14,7 @@ when user clicking on `click here to naviagte user management module` user will 
 ## Shared Module
 It serves shared service across application. we hvae created few resubale methods in user service and a shared varible which will be persisted across the application
 
-##Model
+## Model
 User model is created for type checking. Service respose will be type casted to array of users or user absed on the service we invoked
 
 ## User details Module
