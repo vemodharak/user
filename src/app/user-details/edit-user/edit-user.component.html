@@ -1,0 +1,27 @@
+<form>
+  <div class="form-group">
+    <label for="nameControl">Name</label>
+    <input type="text" class="form-control" id="nameControl"  placeholder="Enter name" [(ngModel)]="user.name" [ngModelOptions]="{standalone: true}"> 
+  </div>
+  <div class="form-group">
+    <label for="surnameControl">Surname</label>
+    <input type="text" class="form-control" id="surnameControl"  placeholder="Enter surname" [(ngModel)]="user.surname" [ngModelOptions]="{standalone: true}"> 
+  </div>
+  <div class="form-group">
+    <label for="birthDateControl">Birth Date</label>
+    <input type="text" class="form-control" id="birthDateControl"  placeholder="Enter name birth date" [(ngModel)]="user.birthDate" [ngModelOptions]="{standalone: true}"> 
+  </div>
+  <div class="form-group">
+    <label for="phoneControl">Phone</label>
+    <input type="text" class="form-control" id="phoneControl"  placeholder="Enter phone number" [(ngModel)]="user.phone" [ngModelOptions]="{standalone: true}"> 
+  </div>
+  <div class="form-group">
+    <label for="cityControl">City</label>
+    <input type="text" class="form-control" id="cityControl"  placeholder="Enter city" [(ngModel)]="user.city" [ngModelOptions]="{standalone: true}"> 
+  </div>
+  <div class="form-group">
+    <label for="streetControl">Street</label>
+    <input type="text" class="form-control" id="streetControl"  placeholder="Enter street" [(ngModel)]="user.street" [ngModelOptions]="{standalone: true}"> 
+  </div>
+  <button type="submit" class="btn btn-primary" (click)="submitUserChanges()">Submit</button>
+</form>

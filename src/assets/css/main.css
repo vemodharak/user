@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing:border-box;	
+}
+
+.main-wrapper{
+    margin:auto; 
+    width:800px;
+    height: auto;  
+}
+
+.user-list{
+margin: auto;
+width:700px;
+padding-top: 10px;
+}
+
+th,td {
+    text-align: center;
+}
+
+.edit-button-all{
+    margin-top: 40px; 
+}
